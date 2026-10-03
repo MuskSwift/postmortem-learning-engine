@@ -1,0 +1,17 @@
+out/
+*.fail.txt
+dogfood/
+.env
+.env.*
+secrets
+secrets/
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/

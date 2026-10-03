@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "postmortem-learning-engine"
+version = "0.1.0"
+description = "Learning slice for a closed incident: timeline, impact that already happened, falsifiable hypotheses, and explicit non-goals."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Postmortem Learning Engine contributors"}]
+dependencies = []
+
+[project.scripts]
+postmortem-learning-engine = "postmortem_learning_engine.cli:main"
+
+[tool.setuptools]
+packages = ["postmortem_learning_engine"]
